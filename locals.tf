@@ -47,5 +47,13 @@ locals {
       topics             = ["frontend-masters", "golang"]
       visibility         = "public"
     }
+
+    "hello-world-azure-service-nodejs" = {
+      description        = "Testing Azure"
+      gitignore_template = "node"
+      name               = "hello-world-azure-service-nodejs"
+      topics             = ["nodejs", "playground"]
+      visibility         = "public"
+    }
   }
 }
