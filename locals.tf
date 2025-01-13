@@ -50,7 +50,7 @@ locals {
 
     "hello-world-azure-service-nodejs" = {
       description        = "Testing Azure"
-      gitignore_template = "node"
+      gitignore_template = "Node"
       name               = "hello-world-azure-service-nodejs"
       topics             = ["nodejs", "playground"]
       visibility         = "public"
