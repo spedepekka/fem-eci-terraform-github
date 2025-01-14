@@ -55,5 +55,13 @@ locals {
       topics             = ["nodejs", "playground"]
       visibility         = "public"
     }
+
+    "hello-world-azure-service-java" = {
+      description        = "Testing Azure"
+      gitignore_template = "Java"
+      name               = "hello-world-azure-service-java"
+      topics             = ["java", "playground"]
+      visibility         = "public"
+    }
   }
 }
